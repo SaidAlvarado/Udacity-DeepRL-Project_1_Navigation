@@ -1,3 +1,5 @@
 Banana_Linux/Banana.x86
 
 .ipynb_checkpoints/
+
+*.log
