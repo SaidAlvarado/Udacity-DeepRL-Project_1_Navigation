@@ -2,7 +2,6 @@
 
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/11748427/80967527-cc864e00-8e16-11ea-8467-df71ffbbeb5b.gif "Trained Agent"
 [image2]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png "Kernel"
 
 
@@ -10,7 +9,9 @@
 
 This Repository contains my solution for the first project of the Deep Reinforcement Learning from Udacity. In this exercise an RL-agent is dropped in a large square environment where it must collect yellow bananas scattered around the world while avoiding the blue ones. The environment was made with Unity's ML-Agents framework. 
 
-![Trained Agent][image1]
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/11748427/80967527-cc864e00-8e16-11ea-8467-df71ffbbeb5b.gif" alt="Trained Agent"/>
+</p>
 
 
 ## Environment Definition
