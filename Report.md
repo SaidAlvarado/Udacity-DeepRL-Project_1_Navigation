@@ -81,7 +81,7 @@ This works particularly well for the current environment given that both its **S
 To approximate the **Action-Value Function** we can use a Deep Neural Network just as suggested in the paper. However, given that the input is not an image, there is no need to use a Convolutional Architecture. Instead, a network with two fully connected  RELU internal layers ending with a softmax function is sufficient.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/11748427/81233131-6f48f300-8ff6-11ea-83be-605c246e54ac.png" alt="Neural Network"/>
+  <img src="https://user-images.githubusercontent.com/11748427/81235783-082e3d00-8ffc-11ea-9c78-aa02ea1db685.png" alt="Neural Network"/>
 </p>
 
 
