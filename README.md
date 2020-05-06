@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This Repository contains my solution for the first project of the Deep Reinforcement Learning from Udacity. In this exercise an RL-agent is dropped in a large square environment where it must collect yellow bananas scattered around the world while avoiding the blue ones. The environment was made with Unity's ML-Agents framework. 
+This repository contains my solution for the first project of the Deep Reinforcement Learning Nanodegree from Udacity. In this exercise an RL-agent is dropped into a large square environment where it must collect yellow bananas scattered around the world while avoiding the blue ones. The environment was made with Unity's ML-Agents framework. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/11748427/80967527-cc864e00-8e16-11ea-8467-df71ffbbeb5b.gif" alt="Trained Agent"/>
@@ -16,17 +16,17 @@ This Repository contains my solution for the first project of the Deep Reinforce
 
 ## Environment Definition
 
-##### Rewards
+#### Rewards
 
 - Each **yellow** banana collected provides a reward of **+1**.
 - Each **blue** banana collected provides a reward of **-1**.
 - No rewards are provided in a per-time-step basis.
 
-##### State Space
+#### State Space
 
 The state space has 37 dimensions and consists of the agent's velocity, as well as ray-based perception of objects in front of the agent.
 
-##### Action Space
+#### Action Space
 
 The agent has four discrete actions available at it's disposal:
 - **`0`** - move forward.
@@ -42,7 +42,7 @@ The agent must learn to select the appropriate action to maximize the amount of 
 
 ## Getting Started
 
-Most if these instructions were borrowed from the instalation instructions in Udacity's [Deep Reinforcement Learning Repository](https://github.com/udacity/deep-reinforcement-learning).
+Most of these instructions were borrowed from the instalation instructions in Udacity's [Deep Reinforcement Learning Repository](https://github.com/udacity/deep-reinforcement-learning).
 
 
 ### Prepare the Anaconda Environment
@@ -73,7 +73,7 @@ pip install .
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
-4. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+4. Before running code in the notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
 ![Kernel][image2]
 
@@ -95,5 +95,5 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ## Understanding the Algorithm
 
-For more information regarding the algorithm used to solve this environemnt, please refer the the technical report `Report.md` included in the repository.
+For more information regarding the algorithm used to solve this environment, please refer the the technical report `Report.md` included in the repository.
 
